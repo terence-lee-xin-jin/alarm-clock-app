@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_alarm_clock_alert_alarm_text">Alarm</string>
+    <string name="activity_alarm_clock_alert_stop_alarm_text">Stop Alarm</string>
+</resources>

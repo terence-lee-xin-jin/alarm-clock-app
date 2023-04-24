@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.AlarmClockAlertActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_alarm_clock_alert_alarm_text"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:id="@+id/alarm_time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:layout_marginBottom="30sp"
+        />
+    <Button
+        android:id="@+id/stop_alarm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_alarm_clock_alert_stop_alarm_text"
+        android:textSize="30sp"
+        android:padding="10sp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

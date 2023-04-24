@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple Alarm Clock By Terence Lee</string>
+
+    <string name="app_full_package_name">com.lee.terence.simple_alarm_app</string>
+</resources>

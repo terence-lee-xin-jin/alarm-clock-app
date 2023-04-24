@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.SetAlarmClockActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_set_alarm_clock_set_your_alarm_time_text"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30sp"
+        android:textAlignment="center"/>
+
+    <TimePicker android:id="@+id/alarm_time_picker"
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:timePickerMode="clock"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_set_alarm_clock_cancel_text"
+            android:layout_marginEnd="30sp"/>
+
+        <Button
+            android:id="@+id/set_alarm_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_set_alarm_clock_set_alarm_text" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

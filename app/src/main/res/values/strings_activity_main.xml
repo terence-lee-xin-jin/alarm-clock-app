@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main_set_alarm_text">Set Alarm</string>
+    <string name="activity_main_edit_alarm_text">Edit Alarm</string>
+
+    <string name="activity_main_delete_alarm_text">Delete Alarm</string>
+
+    <string name="activity_main_your_next_alarm_will_ring_at_text">
+        Your next alarm will ring at:
+    </string>
+    <string name="activity_main_no_alarm_has_been_set_text">No alarm has been set</string>
+</resources>

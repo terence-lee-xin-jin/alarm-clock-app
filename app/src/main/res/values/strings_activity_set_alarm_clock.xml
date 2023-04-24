@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_set_alarm_clock_set_your_alarm_time_text">
+        Set Your Alarm Time
+    </string>
+    <string name="activity_set_alarm_clock_set_alarm_text">Set Alarm</string>
+    <string name="activity_set_alarm_clock_cancel_text">Cancel</string>
+</resources>
